@@ -1,0 +1,26 @@
+{
+  "name": "sm-command-img",
+  "version": "0.1.0",
+  "description": "利用tinypng和imageisux对图片进行压缩",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maoshuyu/sm-command-img"
+  },
+  "keywords": [
+    "fis"
+  ],
+  "author": "maoshuyu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maoshuyu/sm-command-img/issues"
+  },
+  "dependencies": {
+    "needle": "0.7.10",
+    "promise": "6.0.1"
+  },
+  "homepage": "https://github.com/maoshuyu/sm-command-img"
+}
