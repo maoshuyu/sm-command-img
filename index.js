@@ -7,7 +7,8 @@ exports.usage = '<command> [options]';
 exports.desc = 'optimizer img';
 exports.register = function(commander) {
     commander
-        .option('-e, --engine <name>', 'compress engine', String, 'tinypng')
+        .option('-e, --engine <name>', 'compression engine', String, 'tinypng')
+        .option('-s, --serial', 'serial download', Boolean, false)
         .action(function() {
             var options = arguments[arguments.length - 1];
 
