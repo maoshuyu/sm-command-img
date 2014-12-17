@@ -1,7 +1,7 @@
 {
   "name": "sm-command-img",
   "version": "0.1.0",
-  "description": "利用tinypng和imageisux对图片进行压缩",
+  "description": "利用 tinypng 或 imageisux 对图片进行压缩",
   "main": "index.js",
   "engines": {
     "node": ">= 0.8.0"
